@@ -1,0 +1,24 @@
+<div class = "flex-container-header">
+  <button mat-raised-button color="primary" (click)="startThreads()">Start</button>
+  <ul>Summary: {{ sumIdForthStream }}</ul>
+</div>
+<div class="flex-container">
+  <ul>First stream</ul>
+  <ul>
+    <li *ngFor="let obj of objArrFirst">
+      <span>{{ obj.id }}</span>
+    </li>
+  </ul>
+  <ul>Second stream</ul>
+  <ul>
+    <li *ngFor="let obj of objArrSecond">
+      <span>{{ obj.id }}</span>
+    </li>
+  </ul>
+  <ul>Third stream</ul>
+  <ul>
+    <li *ngFor="let obj of objArrThird">
+      <span>{{ obj.id }}</span>
+    </li>
+  </ul>
+</div>

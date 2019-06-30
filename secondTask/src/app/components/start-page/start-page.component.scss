@@ -1,0 +1,44 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+:host {
+  display: block;
+  background: white;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 1em;
+  top: 10%;
+  font-family: arial;
+  text-align: center;
+  text-transform: uppercase;
+  color: crimson;
+}
+h1:hover {
+  background: crimson;
+  color: white;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+button {
+  position: absolute;
+  width: 20% !important;
+  height: 20% !important;
+  top: 40% !important;
+  left: 40% !important;
+  font-family: arial;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
